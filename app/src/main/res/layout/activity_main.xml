@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#F5F5F5">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem-vindo!"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:layout_marginBottom="25dp" />
+
+    <EditText
+        android:id="@+id/edtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Login"
+        android:inputType="text"
+        android:padding="15dp"
+        android:backgroundTint="#6200EE"
+        android:layout_marginBottom="15dp" />
+
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:backgroundTint="#6200EE"
+        android:layout_marginBottom="5dp" />
+
+
+    <CheckBox
+        android:id="@+id/checkLembrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lembrar minha senha"
+        android:textSize="15sp"
+        android:textColor="#444444"
+        android:buttonTint="#6200EE"
+        android:layout_marginBottom="20dp" />
+
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENTRAR"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6200EE"
+        android:padding="12dp" />
+
+</LinearLayout>
