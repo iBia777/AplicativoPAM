@@ -8,7 +8,17 @@
     android:padding="30dp"
     android:background="#F5F5F5">
 
-
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgPerfil"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/cart"
+        android:scaleType="centerCrop"
+        android:contentDescription="Foto de perfil"
+        app:shapeAppearanceOverlay="@style/FotoPerfil"
+        app:strokeColor="#6200EE"
+        app:strokeWidth="3dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -61,5 +71,6 @@
         android:textColor="#FFFFFF"
         android:backgroundTint="#6200EE"
         android:padding="12dp" />
+
 
 </LinearLayout>
