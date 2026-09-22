@@ -1,22 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <Button
-        android:id="@+id/btnProxima"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Próxima Tela"
-         />
+    android:layout_height="match_parent"
+    android:padding="30dp">
 
     <EditText
-        android:id="@+id/editValor"
+        android:id="@+id/ednota1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite um valor"
-        android:inputType="number" />
+        android:hint="Digite a nota P1"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="15dp" />
+
+    <EditText
+        android:id="@+id/ednota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a nota P2"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Média" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Média:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="25dp" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculadora de IMC"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="30dp" />
+
+        <EditText
+            android:id="@+id/edPeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite seu peso (kg)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:id="@+id/edAltura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite sua altura (m)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnCalcularIMC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular IMC" />
+
+        <TextView
+            android:id="@+id/txtResultadoIMC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IMC:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="30dp" />
+
+    </LinearLayout>
 
 </LinearLayout>
+
+
 
