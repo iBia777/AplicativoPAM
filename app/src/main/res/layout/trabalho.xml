@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. O Dobro do Número"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNumeroDobro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite um número inteiro"
+            android:inputType="numberSigned" />
+
+        <Button
+            android:id="@+id/btnDobro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular Dobro" />
+
+        <TextView
+            android:id="@+id/tvResultadoDobro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Idade em Dias"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etIdadeDias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite a idade em anos"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnIdadeDias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular Dias" />
+
+        <TextView
+            android:id="@+id/tvResultadoDias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Calculadora de Gorjeta"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etValorConta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Valor total da conta (ex: 80.50)"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnGorjeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular Gorjeta (10%)" />
+
+        <TextView
+            android:id="@+id/tvResultadoGorjeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Conversor Dólar para Real"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etValorDolar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Valor em Dólares"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnConverterMoeda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Converter para Real" />
+
+        <TextView
+            android:id="@+id/tvResultadoMoeda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Média de Duas Notas"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNota1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota 1"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etNota2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota 2"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnCalcularMedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular Média" />
+
+        <TextView
+            android:id="@+id/tvResultadoMedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Classificador por Idade"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etIdadeCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite a idade"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnClassificarIdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Classificar Categoria" />
+
+        <TextView
+            android:id="@+id/tvResultadoCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Desconto Progressivo"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etValorCompra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Valor total da compra"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnCalcularDesconto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular Desconto" />
+
+        <TextView
+            android:id="@+id/tvResultadoDesconto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
